@@ -14,7 +14,7 @@
   }
   .sheet {
     width: 281mm; height: 194mm; margin: 8mm auto;
-    border: 3mm solid #3aa655; border-radius: 4mm;
+    border: .8mm solid #3aa655; border-radius: 4mm;
     padding: 4mm;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -23,23 +23,22 @@
   }
   .title {
     display: flex; flex-direction: column; justify-content: center; align-items: center;
-    text-align: center; border: 1mm dashed #3aa655; border-radius: 3mm; background: #fbfbe8;
+    text-align: center; border: .5mm dashed #3aa655; border-radius: 3mm;
   }
   .title .sub { font-size: 7mm; font-weight: bold; color: #2e8b47; letter-spacing: .1em; }
   .title h1 { margin: 2mm 0; font-size: 15mm; line-height: 1; color: #e8483f; letter-spacing: .05em; }
   .title p { margin: 3mm 0 0; font-size: 3.6mm; color: #555; line-height: 1.6; }
   .card {
     display: flex; flex-direction: column;
-    border: .8mm solid var(--main); border-radius: 3mm; overflow: hidden;
-    background: var(--light);
+    border: .5mm solid var(--main); border-radius: 3mm; overflow: hidden;
   }
   .card h2 {
-    margin: 0; padding: 1.5mm 0; background: var(--main); color: #fff;
+    margin: 0 2mm; padding: 1.5mm 0; border-bottom: .5mm solid var(--main); color: var(--main);
     font-size: 5mm; text-align: center; letter-spacing: .1em;
   }
   .card h2 .num {
     display: inline-block; width: 8mm; height: 8mm; line-height: 8mm; margin-right: 1.5mm;
-    border-radius: 50%; background: #fff; color: var(--main); font-size: 6mm; letter-spacing: 0;
+    border-radius: 50%; border: .5mm solid var(--main); line-height: 7mm; color: var(--main); font-size: 6mm; letter-spacing: 0;
   }
   .card ol {
     list-style: none; margin: 0; padding: 1mm 3mm; flex: 1;
